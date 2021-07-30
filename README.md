@@ -1,1 +1,1 @@
-<h1>Hi there</h1>
+![til](https://raw.githubusercontent.com/hashrocket/hr-til/master/app/assets/images/banner.png)
