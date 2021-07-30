@@ -1,4 +1,28 @@
+<!DOCTYPE html>
+<html>
+<style>
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
 
+<p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
 
 <script>
 var id = null;
@@ -17,6 +41,7 @@ function myMove() {
     }
   }
 }
-  
-  setInterVal(() => myMove(), 1000 )
 </script>
+
+</body>
+</html>
